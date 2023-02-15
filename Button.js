@@ -18,8 +18,6 @@ export default class Button extends Component {
     ...TouchableOpacity.propTypes,
     accessibilityLabel: PropTypes.string,
     disabled: PropTypes.bool,
-    style: Text.propTypes.style,
-    styleDisabled: Text.propTypes.style,
     androidBackground: PropTypes.object,
   };
 
