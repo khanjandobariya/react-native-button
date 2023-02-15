@@ -17,7 +17,6 @@ export default class Button extends Component {
   static propTypes = {
     ...TouchableOpacity.propTypes,
     accessibilityLabel: PropTypes.string,
-    allowFontScaling: Text.propTypes.allowFontScaling,
     disabled: PropTypes.bool,
     style: Text.propTypes.style,
     styleDisabled: Text.propTypes.style,
